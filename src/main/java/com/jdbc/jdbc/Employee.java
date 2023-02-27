@@ -20,6 +20,11 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 	
 	
 	
